@@ -1,0 +1,34 @@
+.card {
+    border-radius: 10px;
+}
+
+.menu li {
+    padding: 10px;
+    cursor:pointer;
+}
+
+.menu-list {
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+#modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, .6);
+    display: none;
+    cursor: pointer;
+}
+
+.modal-active {
+    display: block !important;
+}
+
+#fechar-modal {
+    font-size: 30px;
+    color: #fff;
+}
